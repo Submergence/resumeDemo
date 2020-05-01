@@ -1,0 +1,171 @@
+/*清除浮动等等*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear:after{
+	content: " ";
+	height: 0;
+	display: block;
+	clear: both;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+#whole{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* padding: 50px; */
+}
+
+#leftPage{
+    height: 650px;
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(203, 233, 247);
+    /* background-color: rgb(255, 186, 169); */
+    border-radius: 50px;
+}
+
+#photoInLeft{
+    height: 250px;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#photoInLeft0{
+    height: 200px;
+    width: 200px;
+    /* padding: 25px; */
+    border-color: rgb(121, 193, 241);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+}
+#name{
+    text-align: center;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#informationInLeft{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.leftBottomTitle{
+    background-color: rgb(121, 193, 241);
+    text-align: center;
+    width: 200px;
+    font-size: 22px;
+    color: white;
+    border-radius: 8px;
+}
+.leftBottomWord{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+
+
+
+
+#rightPage{
+    margin-left: 120px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-color: rgb(121, 193, 241);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    height: 650px;
+    float: left;
+    width: 700px;
+}
+
+
+/*导航列表 */
+#listInRight{
+    height: 40px;
+    width: 700px;
+
+}
+
+.liInList{
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin-left: 15px;
+    background-color: rgb(27, 146, 214);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* padding-top: 5px; */
+}
+
+.aInRight{
+    font-size: 19px;
+    color: white;
+    margin-left: 12px;
+    padding-top: 10px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+#aLinRight1{
+    padding-left: 20px;
+}
+
+.aInRight:hover{
+    color: violet;
+}
+
+.titleInRight{
+    margin-left: 270px;
+    font-size: 23px;
+    color: rgb(27, 146, 214);
+    font-weight: bolder;
+    height: 30px;
+}
+.inTop{
+    margin-left: 10px;
+    width: 680px;
+    height: 35px;
+    padding-top: 10px;
+    border-bottom: rgb(121, 193, 241);
+    border-width: 2px;
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    /* margin-bottom: 20px; */
+}
+
+.showSchool{
+    padding-left: 20px; 
+    margin-top: 15px;
+    height: 170px;
+}
+
+.showSchText{
+    float: left;
+    height: 170px;
+    width: 380px;
+    margin-left: 40px;
+    text-indent: 2em;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.showSchImg{
+    height: 160px;
+    width: 240px;
+    float: left;
+}
