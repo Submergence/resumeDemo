@@ -18,9 +18,8 @@ a{
 
 #whole{
     height: 700px;
-    width: 100%;
-    margin-bottom: 30px;
-    /* padding: 50px; */
+    margin: 0 auto;
+    width: 1250px;
 }
 
 #leftPage{
@@ -86,7 +85,7 @@ a{
     border-style: solid;
     border-width: 2px;
     border-radius: 50px;
-    height: 650px;
+    height: 640px;
     float: left;
     width: 700px;
 }
@@ -150,7 +149,7 @@ a{
 
 .showSchool{
     padding-left: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     height: 170px;
 }
 

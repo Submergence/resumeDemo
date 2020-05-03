@@ -18,9 +18,8 @@ a{
 
 #whole{
     height: 700px;
-    width: 100%;
-    margin-bottom: 30px;
-    /* padding: 50px; */
+    margin: 0 auto;
+    width: 1250px;
 }
 
 #leftPage{
@@ -91,7 +90,7 @@ a{
     border-style: solid;
     border-width: 2px;
     border-radius: 50px;
-    height: 650px;
+    height: 640px;
 }
 .titleInRight:hover{
     /* float: left; */
